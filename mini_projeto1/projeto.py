@@ -2,18 +2,6 @@ from tkinter import *
 
 root = Tk()
 
-# root.title("Mini Projeto - 1")
-# root.configure(background='#1e3743')
-# root.geometry("600x400")
-# root.resizable(True, True)
-# root.maxsize(width=1000, height=800)
-# root.minsize(width=400, height=200)
-
-
-
-# root.mainloop()
-
-
 class Application():
   def __init__(self):
     self.root = root
