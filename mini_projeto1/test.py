@@ -60,26 +60,26 @@ class Application():
 
     def widgets_frame2(self):
         # Nuvem de palavras
-        Label(self.frame_2, text="Nuvem de Palavras:", bg='#dfe3ee', font=('Arial', 12, 'bold')).place(x=10, y=10)
-        self.canvas_nuvem = Canvas(self.frame_2, bg='white', width=800, height=150)
-        self.canvas_nuvem.place(relx=0.03, rely=0.3)
+        Label(self.frame_2, text="Nuvem de Palavras:", bg='#dfe3ee', font=('Arial', 12, 'bold')).place(relx=0.01, rely=0.0)
+        self.canvas_nuvem = Canvas(self.frame_2, bg='white')
+        self.canvas_nuvem.place(relx=0.03, rely=0.15, relwidth=0.94, relheight=0.80)
 
     def widgets_frame3(self):
         # Termos de busca e resultados
-        Label(self.frame_3, text="Termos de Busca e Resultados:", bg='#dfe3ee', font=('Arial', 12, 'bold')).place(x=10, y=10)
-        self.entry_termo_busca = Entry(self.frame_3, width=30)
-        self.entry_termo_busca.place(x=200, y=50)
+        Label(self.frame_3, text="Termos de Busca e Resultados:", bg='#dfe3ee', font=('Arial', 12, 'bold')).place(relx=0.01, rely=0.05)
+        self.entry_termo_busca = Entry(self.frame_3, width=50)
+        self.entry_termo_busca.place(relx=0.28, rely=0.05)
         self.btn_buscar = Button(self.frame_3, text="Buscar", font=('Arial', 10))
-        self.btn_buscar.place(x=400, y=50)
+        self.btn_buscar.place(relx=0.7, rely=0.0)
 
-        self.text_resultados = Text(self.frame_3, height=5, width=80)
-        self.text_resultados.place(relx=0.03, rely=0.4)
+        self.text_resultados = Text(self.frame_3)
+        self.text_resultados.place(relx=0.03, rely=0.2, relwidth=0.94, relheight=0.8)
 
     def widgets_frame4(self):
         # Resumo do texto
-        Label(self.frame_4, text="Resumo do Texto:", bg='#dfe3ee', font=('Arial', 12, 'bold')).place(x=10, y=10)
-        self.text_resumo = Text(self.frame_4, height=10, width=100)
-        self.text_resumo.place(relx=0.03, rely=0.2)
+        Label(self.frame_4, text="Resumo do Texto:", bg='#dfe3ee', font=('Arial', 12, 'bold')).place(relx=0.01, rely=0.0)
+        self.text_resumo = Text(self.frame_4)
+        self.text_resumo.place(relx=0.03, rely=0.1, relwidth=0.94, relheight=0.90)
 
     def processar(self):
         print(self.entry_link)
