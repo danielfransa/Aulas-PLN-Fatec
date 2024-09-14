@@ -1,5 +1,10 @@
 # Mini Projeto 1
 
+### Grupo
+ - [Daniel França](https://github.com/danielfransa)
+ - [Douglas Hugo](https://github.com/douglashugo)
+ - [Witer Xavier Mendonça](https://github.com/witermendonca) 
+
 ## Desenvolva uma interface de diálogo com o usuário na qual ele possa:
 
 - Escolher se o processamento será feito em português ou inglês.
