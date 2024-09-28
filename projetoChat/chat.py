@@ -1,5 +1,5 @@
 import spacy
-import en_core_web_sm
+import en_core_web_md
 import nltk
 from goose3 import Goose
 from sklearn.feature_extraction.text import TfidfVectorizer
